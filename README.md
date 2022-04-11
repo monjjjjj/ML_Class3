@@ -34,3 +34,13 @@
 4. CNN並不能處理影像放大、縮小、旋轉的問題！
    但Spatial Transformer layer這個架構可以處理此問題！
 
+## Self-Attention(另一個常見的network架構)
+### Input is a set of vectors，且vector set的大小可能不一樣
+1. 例如文字處理中的句子、聲音訊號、graph(如social network)
+2. I saw a saw. 兩個saw對model來說是一樣的，必須去考慮上下文的資訊！
+
+   開一個window去考慮上下文再去判斷詞性！
+
+   若是開了太大的window，意味著fc的network需要非常多的參數，運算量會很大，也容易發生overfitting!
+3. 可用self-attention解決上述問題
+
