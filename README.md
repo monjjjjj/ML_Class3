@@ -30,4 +30,7 @@
 3. Pooling來自subsampling，能夠減少運算量，但如果運算能力夠的話，pooling為可有可無！
 
    Pooling是沒有要根據data去學任何東西
+   
+4. CNN並不能處理影像放大、縮小、旋轉的問題！
+   但Spatial Transformer layer這個架構可以處理此問題！
 
