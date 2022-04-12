@@ -41,6 +41,8 @@
 
    開一個window去考慮上下文再去判斷詞性！
 
-   若是開了太大的window，意味著fc的network需要非常多的參數，運算量會很大，也容易發生overfitting!
+   若是開了太大的window，意味著fully connected的network會需要非常多的參數，運算量會很大，也容易發生overfitting!
 3. 可用self-attention解決上述問題
+
+   若不希望把整個sequence包在一個window裡面，所以要find the relevant vectors in a sequence
 
