@@ -57,8 +57,6 @@
    CNN: 考慮整張圖片
    
    Self-attention: 只考慮receptive field
-
-   Self-attention: 只考慮receptive field
    
    <img width="247" alt="image" src="https://user-images.githubusercontent.com/62006029/163110574-b902454b-81a6-42f7-9942-4207d15a7e79.png">
    
