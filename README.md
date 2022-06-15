@@ -53,10 +53,12 @@
    
        相關這件事情有很多種形式、定義，所以不能只有一個q，多個q去負責不同種類的相關性
 5. Self-attention v.s. CNN
-
-   CNN: 考慮整張圖片
    
-   Self-attention: 只考慮receptive field
+   CNN是有受限制的self-attention，是self-attention的特例！
+
+   CNN: 彈性較小，無法從較多的訓練資料中得到好處，只考慮receptive field中的資訊，receptive field是由人畫出來的！
+   
+   Self-attention: 彈性較大，需要較多的訓練資料，要考慮整張圖片的資訊，receptive field是由network學習而畫出來的！
    
    <img width="247" alt="image" src="https://user-images.githubusercontent.com/62006029/163110574-b902454b-81a6-42f7-9942-4207d15a7e79.png">
    
